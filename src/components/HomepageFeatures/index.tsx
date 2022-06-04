@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Track what's relevant",
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/track.svg').default,
     description: (
       <>
         Don't waste time on vanity metrics. Torq helps you track the data you 
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Stop guessing',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/see.svg').default,
     description: (
       <>
         Torq finds the relevant information and visualize it for you in an 
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Stay in control',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/automate.svg').default,
     description: (
       <>
         Torq will give you a set of tools to control and automate your operation. 

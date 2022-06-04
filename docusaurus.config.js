@@ -9,7 +9,7 @@ const config = {
   title: 'Torq Documentation',
   // tagline: '',
   url: 'https://docs.ln.capital',
-  baseUrl: '/',
+  baseUrl: '/torq-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
