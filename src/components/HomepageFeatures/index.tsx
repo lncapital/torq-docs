@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: "Track what's relevant",
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Don't waste time on vanity metrics. Torq helps you track the data you 
+        need to categorize and identify channels that are worth keeping.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Stop guessing',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Torq finds the relevant information and visualize it for you in an 
+        interface optimized for routing nodes.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Stay in control',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Torq will give you a set of tools to control and automate your operation. 
+        Help you stay in control and be alerted to potential issues. (coming soon)
       </>
     ),
   },
