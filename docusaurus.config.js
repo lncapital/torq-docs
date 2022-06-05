@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Torq Documentation',
-  // tagline: '',
+  title: 'Torq',
+  tagline: 'Capital Management tool for routing nodes',
   url: 'https://docs.ln.capital',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -52,10 +52,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Torq',
+        title: '',
         logo: {
           alt: 'LN Capital logo',
-          src: 'img/logo.svg',
+          src: 'img/logo-ln-new.svg',
         },
         items: [
           // {

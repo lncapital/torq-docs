@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/docker-compose">
-            Setup Torq ⚡
+            ⚡ Install Torq ⚡
           </Link>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Torq documentation">
+      description="docs">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
