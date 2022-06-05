@@ -9,7 +9,7 @@ const config = {
   title: 'Torq Documentation',
   // tagline: '',
   url: 'https://docs.ln.capital',
-  baseUrl: '/torq-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -18,7 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lncapital', // Usually your GitHub org/user name.
   projectName: 'torq-docs', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful

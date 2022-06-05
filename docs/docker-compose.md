@@ -50,18 +50,18 @@ services:
     depends_on:
       - "db"
     command:
+      - --db.user
+      - <YourDbUsername>
       - --db.password
-      - <ChooseYourFrontendPassword>
+      - <YourDbPassword>
       - --db.name
       - torq
       - --db.host
       - db
       - --db.port
       - "5432"
-      - --db.user
-      - <YourDbUsername>
       - --torq.password
-      - <YourDbPassword>
+      - <YourFrontendPassword>
       - start
   db:
     image: "timescale/timescaledb:latest-pg14"
