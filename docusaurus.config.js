@@ -41,6 +41,10 @@ const config = {
           editUrl:
             'https://github.com/lncapital/torq/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        gtag: {
+          trackingID: 'G-BF39KCF626',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -56,6 +60,7 @@ const config = {
         logo: {
           alt: 'LN Capital logo',
           src: 'img/logo-ln-new.svg',
+          srcDark: 'img/logo-ln-dark.svg',
         },
         items: [
           // {
@@ -73,7 +78,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        // style: 'dark',
         links: [
           // {
           //   title: 'Docs',
