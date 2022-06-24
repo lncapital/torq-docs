@@ -11,6 +11,6 @@ Prerequisites: git, docker
 
 ```sh
 git clone https://github.com/lncapital/torq
-cd docker
+cd torq/docker
 ./configure.sh && ./start.sh
 ```
